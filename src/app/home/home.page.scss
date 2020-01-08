@@ -1,0 +1,45 @@
+
+.ion-activatable {
+    position: relative;
+    overflow: hidden;
+  }
+
+ion-content{
+  ion-skeleton-text{
+    width: 100%;
+    height:230px;
+  }
+  ion-slides{
+    ion-slide{
+      img{
+        width:100% !important;
+      }
+    }
+  }
+  ion-row{
+    ion-col{
+      padding:10px !important;
+      ion-card{
+        margin: 0px !important;
+      }
+    }
+  }
+}
+
+  
+  .myOverlay{
+    width: 100%;
+    // height: 40%;
+    padding-top:5%;
+    text-align: center;
+    position: absolute;
+    z-index: 99;
+    bottom: 0%;
+    opacity: 0.5;
+    color: white;
+    font-weight: bold;
+    background-color: #dc0000;
+  }
+  .segmentWidth{
+    width: 100% !important;
+  }
